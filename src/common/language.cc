@@ -35,7 +35,7 @@
 #include <config.h>  // Must come first
 #endif
 
-#include "common/language.h"
+#include "language.h"
 
 #include <stdlib.h>
 #include <array>
