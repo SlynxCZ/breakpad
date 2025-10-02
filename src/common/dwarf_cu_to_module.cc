@@ -40,6 +40,7 @@
 #endif
 
 #include "common/dwarf_cu_to_module.h"
+#include "language.h"
 
 #include <assert.h>
 #include <inttypes.h>
