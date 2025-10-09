@@ -1,12 +1,12 @@
 %module x86disasm
 %{
 #include "../../libdis.h"
-#include "../../../config.h"
+#include "../../../configs.h"
 %}
 
 %rename(version_string) x86_version_string;
 %include "../../libdis.h"
-#include "../../../config.h"
+#include "../../../configs.h"
 
 %inline %{
 	const char * x86_version_string( void ) {

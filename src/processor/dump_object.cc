@@ -29,7 +29,7 @@
 // dump_object.cc: A base class for all mini/micro dump object.
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include "google_breakpad/processor/dump_object.h"

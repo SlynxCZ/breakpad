@@ -34,7 +34,7 @@
 // Author: Mark Mentovai
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include "tools/windows/converter/ms_symbol_server_converter.h"

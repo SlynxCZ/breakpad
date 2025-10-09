@@ -32,7 +32,7 @@
 // Then run test_app to generate a dump, and dump_syms to create the .sym file.
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include <stdio.h>

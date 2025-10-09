@@ -43,7 +43,7 @@
 //     new form to allocate objects and we don't delete them.
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include "client/linux/handler/minidump_descriptor.h"

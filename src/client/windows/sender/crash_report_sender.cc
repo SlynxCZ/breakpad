@@ -30,7 +30,7 @@
 #pragma warning( disable : 4530 )
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include <errno.h>

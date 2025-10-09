@@ -31,7 +31,7 @@
 // synth_minidump.cc: Implementation of SynthMinidump.  See synth_minidump.h
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include "processor/synth_minidump.h"

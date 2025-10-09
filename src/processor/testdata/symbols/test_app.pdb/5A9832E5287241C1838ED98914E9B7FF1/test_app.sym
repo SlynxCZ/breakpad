@@ -4485,7 +4485,7 @@ FILE 4483 f:\sp\public\sdk\inc\guiddef.h
 FILE 4484 f:\sp\vctools\crt_bld\self_x86\crt\prebuild\misc\i386\chandler4.c
 FILE 4485 f:\sp\public\sdk\inc\ntstatus.h
 FILE 4486 f:\sp\public\sdk\inc\ntkeapi.h
-FILE 4487 f:\sp\public\sdk\inc\ntconfig.h
+FILE 4487 f:\sp\public\sdk\inc\ntconfigs.h
 FILE 4488 f:\sp\public\sdk\inc\ntregapi.h
 FILE 4489 f:\sp\public\sdk\inc\ntmmapi.h
 FILE 4490 f:\sp\public\sdk\inc\ntobapi.h

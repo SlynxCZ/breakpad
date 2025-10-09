@@ -32,7 +32,7 @@
 // CFIFrameInfo for a stack frame.
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include "google_breakpad/processor/stack_frame_symbolizer.h"

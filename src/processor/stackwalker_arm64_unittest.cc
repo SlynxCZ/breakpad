@@ -31,7 +31,7 @@
 // stackwalker_arm64_unittest.cc: Unit tests for StackwalkerARM64 class.
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include <string.h>

@@ -29,7 +29,7 @@
 // pid2md.cc: An utility to generate a minidump from a running process
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include <stdio.h>

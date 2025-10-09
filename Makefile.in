@@ -319,7 +319,7 @@ DIST_COMMON = $(srcdir)/Makefile.am $(top_srcdir)/configure \
 am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \
  configure.lineno config.status.lineno
 mkinstalldirs = $(install_sh) -d
-CONFIG_HEADER = $(top_builddir)/src/config.h
+CONFIG_HEADER = $(top_builddir)/src/configs.h
 CONFIG_CLEAN_FILES = breakpad.pc breakpad-client.pc
 CONFIG_CLEAN_VPATH_FILES =
 @LINUX_HOST_TRUE@am__EXEEXT_1 = src/client/linux/linux_dumper_unittest_helper$(EXEEXT) \
@@ -2135,7 +2135,7 @@ am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/autotools/install-sh \
 	$(top_srcdir)/autotools/missing \
 	$(top_srcdir)/autotools/test-driver \
-	$(top_srcdir)/src/config.h.in AUTHORS ChangeLog INSTALL NEWS \
+	$(top_srcdir)/src/configs.h.in AUTHORS ChangeLog INSTALL NEWS \
 	README.md autotools/ar-lib autotools/compile \
 	autotools/config.guess autotools/config.sub autotools/depcomp \
 	autotools/install-sh autotools/ltmain.sh autotools/missing
@@ -3828,20 +3828,20 @@ $(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)
 	$(am__cd) $(srcdir) && $(ACLOCAL) $(ACLOCAL_AMFLAGS)
 $(am__aclocal_m4_deps):
 
-src/config.h: src/stamp-h1
+src/configs.h: src/stamp-h1
 	@test -f $@ || rm -f src/stamp-h1
 	@test -f $@ || $(MAKE) $(AM_MAKEFLAGS) src/stamp-h1
 
-src/stamp-h1: $(top_srcdir)/src/config.h.in $(top_builddir)/config.status
+src/stamp-h1: $(top_srcdir)/src/configs.h.in $(top_builddir)/config.status
 	@rm -f src/stamp-h1
-	cd $(top_builddir) && $(SHELL) ./config.status src/config.h
-$(top_srcdir)/src/config.h.in: @MAINTAINER_MODE_TRUE@ $(am__configure_deps) 
+	cd $(top_builddir) && $(SHELL) ./config.status src/configs.h
+$(top_srcdir)/src/configs.h.in: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)
 	($(am__cd) $(top_srcdir) && $(AUTOHEADER))
 	rm -f src/stamp-h1
 	touch $@
 
 distclean-hdr:
-	-rm -f src/config.h src/stamp-h1
+	-rm -f src/configs.h src/stamp-h1
 breakpad.pc: $(top_builddir)/config.status $(srcdir)/breakpad.pc.in
 	cd $(top_builddir) && $(SHELL) ./config.status $@
 breakpad-client.pc: $(top_builddir)/config.status $(srcdir)/breakpad-client.pc.in

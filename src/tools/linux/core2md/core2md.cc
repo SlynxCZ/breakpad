@@ -29,7 +29,7 @@
 // core2md.cc: A utility to convert an ELF core file to a minidump file.
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include <stdio.h>

@@ -35,7 +35,7 @@
 // use the alternative allocator.
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include "client/linux/minidump_writer/linux_dumper.h"

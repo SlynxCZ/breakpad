@@ -20,7 +20,7 @@
 #define MAX_INSN_RAW_STRING 1024
 #define MAX_INSN_XML_STRING 4096
 
-#include "../../../config.h"
+#include "../../../configs.h"
 
 
 const char * version_string( void ) {

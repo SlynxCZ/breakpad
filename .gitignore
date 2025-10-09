@@ -63,7 +63,7 @@ lib*.a
 .dirstamp
 autom4te.cache/
 /config.cache
-config.h
+configs.h
 /config.log
 /config.status
 /Makefile

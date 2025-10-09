@@ -56,7 +56,7 @@ See the header file "ConvertUTF.h" for complete documentation.
 
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include "convert_UTF.h"

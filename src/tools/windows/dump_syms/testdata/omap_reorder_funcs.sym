@@ -2,7 +2,7 @@ MODULE windows x86 11F7284EDE764667AA5234B0E7B07EEF1 omap_reorder_funcs.pdb
 FILE 1 c:\src\breakpad\src\src\tools\windows\dump_syms\testdata\dump_syms_regtest.cc
 FILE 2 f:\dd\public\sdk\inc\internal\pebteb.h
 FILE 3 f:\dd\public\sdk\inc\internal\ntldr.h
-FILE 4 f:\dd\public\sdk\inc\internal\ntconfig.h
+FILE 4 f:\dd\public\sdk\inc\internal\ntconfigs.h
 FILE 5 f:\dd\public\sdk\inc\internal\ntregapi.h
 FILE 6 f:\dd\vctools\crt_bld\self_x86\crt\prebuild\h\stdarg.h
 FILE 7 f:\dd\public\ddk\inc\ntdef.h

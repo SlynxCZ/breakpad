@@ -30,7 +30,7 @@
 // Android). See crbug.com/410294 for more info and design docs.
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include "client/linux/microdump_writer/microdump_writer.h"

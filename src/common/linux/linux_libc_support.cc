@@ -31,7 +31,7 @@
 // as it tries to resolve uncached PLT entries.
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include "common/linux/linux_libc_support.h"

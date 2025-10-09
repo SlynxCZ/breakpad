@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 #ifdef HAVE_CONFIG_H
-#include <config.h>  // Must come first
+#include <configs.h>  // Must come first
 #endif
 
 #include "breakpad_googletest_includes.h"
